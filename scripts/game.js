@@ -110,7 +110,7 @@ const ED_LEFT = 0;
 		let enemies = Game.objects.filter(e => e instanceof Enemy);
 		if(enemies.length === 0) {
 			Game.won = true;
-		} else if(enemies.find(e => e.pos.y + e.size.height >= Game.canvas.height) != undefined) {
+		} else if(enemies.find(e => e.pos.y + e.size.height >= Game.player.pos.y) != undefined) {
 			Game.lost = true;
 		} else {
 			return false;
