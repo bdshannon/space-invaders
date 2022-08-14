@@ -1,0 +1,28 @@
+nav a:link, nav a:visited {
+	text-decoration: none;
+	color: black;
+	padding: 1.5em;
+}
+
+nav a:hover {
+	background-color: gray;
+}
+
+nav {
+	margin-left: 2em;
+	margin-bottom: 2em;
+}
+
+main {
+	column-count: 3;
+}
+
+main > p {
+	column-span: all;
+}
+
+.div-col img {
+	border-radius: 8px;
+	column-span: 1;
+	width: 100%;
+}

@@ -1,0 +1,29 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+}
+
+.grid-item img {
+	width: 100%;
+}
+
+.grid-item {
+	padding: 20px;
+}
+
+.join {
+	padding: 10px 20px 10px 20px;
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+	transition: 0.3s;
+	display: block;
+	text-align: center;
+}
+
+.join:hover {
+	background-color: lightblue;
+	color: black;
+	/*opacity: 0.5;*/
+}
